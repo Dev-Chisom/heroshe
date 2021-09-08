@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full mx-auto md:m-12">
+  <div class=" mx-auto md:m-12">
     <div class="mb-4 text-center lg:text-left">
          <div class="w-14 h-14 mb-1 mx-auto lg:hidden inline-flex">
             <span

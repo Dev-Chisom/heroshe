@@ -3,7 +3,7 @@
     <LoadingSpinner v-if="showHideSpinner" />
     <PageHeader :user="user" @showMobile="openMobile"/>
     <div
-      class="min-h-screen flex overflow-hidden"
+      class="min-h-screen flex"
     >
       <Navigation class="hidden lg:block lg:w-64 xl:w-72 space-y-6" />
         
