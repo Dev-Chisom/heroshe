@@ -13,6 +13,7 @@
       </div>
       </transition>
       <main
+      v-if="mobileSlide"
         class="flex-1 bg-white m-0 lg:m-6 rounded-t-lg"
       >
         <Content :user="user" />
@@ -28,7 +29,8 @@ export default {
     return {
       user: {},
       mobile: false,
-       showHideSpinner: true
+      mobileSlide: true,
+      showHideSpinner: true
     };
   },
   async created() {
@@ -44,6 +46,7 @@ export default {
   methods:{
     openMobile(){
       this.mobile = !this.mobile
+      this.mobileSlide = !this.mobileSlide
     }
   },
 };

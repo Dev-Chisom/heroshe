@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm py-4 px-8 bg-white shadow-lg rounded-lg my-4 h-52 md:w-72 w-full xl:w-72">
+  <div class="max-w-sm py-4 px-8 bg-white shadow-lg rounded-lg my-2 h-52 md:w-72 w-full xl:w-72">
   <div>
        <slot name="image">
       </slot>
