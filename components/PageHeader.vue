@@ -7,6 +7,7 @@
         type="button"
         class="group lg:hidden inline-flex items-center justify-center text-sm font-medium hover:text-gray-900"
         aria-expanded="false"
+        aria-label="toggle sidebar"
          @click="$emit('showMobile')"
       >
          <img src="~/assets/svg/burger.svg" alt="">
@@ -62,6 +63,7 @@
         type="button"
         class="group lg:inline-flex items-center justify-center text-sm font-medium hover:text-gray-900 hidden"
         aria-expanded="false"
+        aria-label="what's new"
       >
         <span class="mr-2">What's new?</span>
         <span
@@ -73,6 +75,7 @@
         type="button"
         class="group lg:inline-flex items-center justify-center text-sm font-medium hover:text-gray-900 hidden "
         aria-expanded="false"
+        aria-label="resources"
       >
         <span class="mr-2">Resources</span>
         <span
@@ -85,6 +88,7 @@
         type="button"
         class="group lg:inline-flex items-center justify-center text-sm font-medium hover:text-gray-900 hidden"
         aria-expanded="false"
+        aria-label="currency"
       >
         <span class="truncate text-sm font-normal mr-1.5">Currency</span>
         <div
@@ -99,6 +103,7 @@
         type="button"
         class="group inline-flex items-center justify-center text-sm font-medium hover:text-gray-900"
         aria-expanded="false"
+        aria-label="cart"
       >
         <span class="mr-2 hidden lg:inline-flex">Cart</span>
         <span class="relative">
@@ -134,6 +139,7 @@
         id="menu-0-button"
         aria-expanded="false"
         aria-haspopup="true"
+        aria-label="initials"
       >
         <div class="w-12 h-12 relative mb-4">
             <span
